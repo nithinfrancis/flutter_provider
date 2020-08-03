@@ -5,5 +5,5 @@ import 'package:provider/provider.dart';
 import 'my_app.dart';
 
 void main() => runApp(Provider<Flavor>.value(
-    value:Flavor.dev,
+    value:Flavor.prod,
     child: MyApp()));
